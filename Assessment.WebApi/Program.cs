@@ -34,7 +34,7 @@ builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo 
     { 
-        Title = "WEBAPI PRUEBA TÉCNICA",
+        Title = "PRUEBA TÉCNICA",
         Version = "1.0.0",
         Description = "Documentación de la prueba técnica de la api.",
         Contact = new OpenApiContact
