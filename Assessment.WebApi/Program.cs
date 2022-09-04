@@ -45,7 +45,7 @@ builder.Services.AddSwaggerGen(c =>
         },
         License = new OpenApiLicense
         {
-            Name = "OPEN",
+            Name = "Repository",
             Url = new Uri("https://github.com/fjtorreglosaa/AssessmentAranda")
         },
     });
