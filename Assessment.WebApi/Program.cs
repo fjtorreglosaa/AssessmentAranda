@@ -108,8 +108,11 @@ builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(builder =>
     {
-        builder.WithOrigins("https://www.apirequest.io").AllowAnyMethod().AllowAnyHeader()
-        .WithExposedHeaders(new string[] { "numberOfRecords" });
+        //builder.AllowAnyHeader();
+        //builder.AllowAnyMethod();
+        builder.AllowAnyOrigin();
+        //builder.WithOrigins("https://www.apirequest.io").AllowAnyMethod().AllowAnyHeader()
+        //.WithExposedHeaders(new string[] { "numberOfRecords" });
     });
 });
 

@@ -34,7 +34,7 @@ namespace Assessment.Logic.DomainServices
             var targetPath = @$"{Directory.GetCurrentDirectory()}{StringConstants.IMG_FOLDER}";
             var fileName = $"{criteria.Name}{StringConstants.JPG}";
             var entity = criteria.ConvertToEntity();
-            entity.ImagePath = @$"\{StringConstants.JPG}\{fileName}";
+            entity.ImagePath = @$"{targetPath}\{fileName}";
             entity.ImageType = StringConstants.PRODUCT;
 
             ManageFileService.CopyFileToLocation(currentImageName, fileName, sourcePath, targetPath);

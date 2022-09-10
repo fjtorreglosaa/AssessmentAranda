@@ -34,7 +34,7 @@ namespace Assessment.Logic.Utilities
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["key"]));
             var credentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-            var expiration = DateTime.UtcNow.AddHours(2);
+            var expiration = DateTime.UtcNow.AddYears(1);
             var securityToken = new JwtSecurityToken(issuer: null, audience: null, claims: claims, expires: expiration, signingCredentials: credentials);
 
             var authenticationResponse = new AuthenticationResponseDto
