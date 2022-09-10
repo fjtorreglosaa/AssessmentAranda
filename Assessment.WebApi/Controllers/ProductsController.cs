@@ -1,13 +1,10 @@
-﻿using Assessment.Data.Entities;
-using Assessment.Logic.DomainServices.Interfaces;
+﻿using Assessment.Logic.DomainServices.Interfaces;
 using Assessment.Logic.Dtos.PaginationDtos;
 using Assessment.Logic.Dtos.ProductDtos;
 using Assessment.Logic.Extensions;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System.Net;
 
 namespace Assessment.WebApi.Controllers
 {

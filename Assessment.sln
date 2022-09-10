@@ -15,6 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Business Logic", "2. Bus
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Persistence", "3. Persistence", "{E130F4A2-1661-4D51-9C28-80EFDB560236}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assessment.NUnit.Tests", "Assessment.NUnit.Tests\Assessment.NUnit.Tests.csproj", "{2437E176-D79C-422E-BBCF-737106E45411}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Unit Tests", "4. Unit Tests", "{0A70C29C-DC12-4182-8768-FF65ACDF89A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,10 @@ Global
 		{3DD794FF-A4BF-4B6B-B682-A6BC9BAD95A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DD794FF-A4BF-4B6B-B682-A6BC9BAD95A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DD794FF-A4BF-4B6B-B682-A6BC9BAD95A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2437E176-D79C-422E-BBCF-737106E45411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2437E176-D79C-422E-BBCF-737106E45411}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2437E176-D79C-422E-BBCF-737106E45411}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2437E176-D79C-422E-BBCF-737106E45411}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +49,7 @@ Global
 		{ED5CDA65-9D6D-4998-94C6-735731FD5B56} = {D04235FA-3CE0-402D-B0FE-E4B80DFF71B7}
 		{E52EA6BC-3695-4DAE-BA15-23F6FF6FD9F7} = {B5C82D7D-2232-4EF0-9AEF-C397E29F4B01}
 		{3DD794FF-A4BF-4B6B-B682-A6BC9BAD95A4} = {E130F4A2-1661-4D51-9C28-80EFDB560236}
+		{2437E176-D79C-422E-BBCF-737106E45411} = {0A70C29C-DC12-4182-8768-FF65ACDF89A6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C1F45B7D-81F3-4BFA-B80C-99D5CA436653}
